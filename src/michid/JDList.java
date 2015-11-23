@@ -6,7 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Alternative approach at the DList in Java. Not very useful though...
+ * Alternative approach at the DList in Java. Not very useful though with a
+ * mutable underlying list.
+ *
+ * See http://h2.jaguarpaw.co.uk/posts/demystifying-dlist/
  */
 public abstract class JDList<T> {
     public abstract List<T> toList(List<T> acc);

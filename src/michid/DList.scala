@@ -2,6 +2,8 @@ package michid
 
 /**
   * Alternative approach at the DList
+  *
+  * See http://h2.jaguarpaw.co.uk/posts/demystifying-dlist/
   */
 class DList[T](val xs: List[T] => List[T]) {
   def toList: List[T] =
